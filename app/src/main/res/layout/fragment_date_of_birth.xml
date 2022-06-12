@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registro.Date_of_birthFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="728dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="50dp">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Añade tu fecha de nacimiento"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:paddingTop="15dp"
+                android:text="Debemos comprobar que cumples con los requisitos de la app."
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/editBirth"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/radio"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:textAlignment="textStart"
+                android:textColor="#5A5959"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="60dp">
+
+            <CalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="298dp"
+                android:layout_height="338dp"
+                android:paddingBottom="10dp" />
+
+            <Button
+                android:id="@+id/botonDateOfBirth"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Registro"
+                android:textAlignment="center"
+                android:textColorHighlight="#97009688"
+                android:onClick="onClick"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

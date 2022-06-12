@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Resources</string>
+    <string name="hyperlink1"> 1. <a href="https://www.psiconet.es/la-importancia-de-las-tareas-para-casa-los-autorregistros/">¿QUÉ ES UN AUTORREGISTRO?</a></string>
+    <string name="hyperlink2"> 2. <a href="https://www.metlife.es/blog/salud-bienestar/como-explicar-la-ansiedad/">LA ANSIEDAD</a></string>
+    <string name="hyperlink3"> 3. <a href="https://psicologiaymente.com/psicologia/para-que-sirve-miedo">¿PARA QUÉ SIRVE EL MIEDO?</a></string>
+    <string name="hyperlink4"> 4. <a href="https://www.psicoglobal.com/blog/psicologia-emocion-tristeza">LA TRISTEZA TAMBIÉN ES NECESARIA</a></string>
+    <string name="hyperlink5"> 5. <a href="https://www.psicoglobal.com/blog/psicologia-emociones-alegria#:~:text=Est%C3%A1%20comprobado%20que%20re%C3%ADrnos%20hace,necesaria%20para%20afrontar%20los%20problemas.">¿LA ALEGRÍA SIEMPRE ES BUENA? TIPOS DE ALEGRÍA</a></string>
+    <string name="hyperlink6"> 6. <a href="https://orientacionpsicologica.es/la-emocion-de-sorpresa/">AFRONTAR LA SORPRESA</a></string>
+    <string name="hyperlink7"> 7. <a href="https://neuronpsicologia.com/areas-de-intervencion/tecnicas-de-relajacion/?currency=USD#:~:text=Las%20t%C3%A9cnicas%20de%20relajaci%C3%B3n%20son,en%20nuestro%20ritmo%20de%20vida.">IMPORTANCIA Y TÉCNICAS DE LA RELAJACIÓN</a></string>
+    <string name="nombre">PSYQUÉ</string>
+
+</resources>

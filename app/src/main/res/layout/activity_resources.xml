@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEAEA"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/infoTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Además de realizar el autorregistro de tus emociones también está bien reflexionar sobre ellas de una manera más abstracta, aquí tienes una serie de enlaces que pueden ayudarte a entender mejor qué son las emociones así como otra serie de recursos que puedan ayudarte. "
+        android:textAlignment="textStart"
+        android:textColor="#3A3A3A"
+        android:textColorHint="#FFFFFF"
+        android:textDirection="inherit"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/link1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/hyperlink1"
+        android:textColor="#000000"
+        android:textColorHighlight="#5FA19B"
+        android:textColorLink="#009688"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/hyperlink2"
+        android:textColor="#000000"
+        android:textColorHighlight="#5FA19B"
+        android:textColorLink="#009688"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/link2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/hyperlink3"
+        android:textColor="#000000"
+        android:textColorHighlight="#5FA19B"
+        android:textColorLink="#009688"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/link3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/hyperlink4"
+        android:textColor="#000000"
+        android:textColorHighlight="#5FA19B"
+        android:textColorLink="#009688"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/link4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/hyperlink5"
+        android:textColor="#000000"
+        android:textColorHighlight="#5FA19B"
+        android:textColorLink="#009688"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/link5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/hyperlink6"
+        android:textColor="#000000"
+        android:textColorHighlight="#5FA19B"
+        android:textColorLink="#009688"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/link6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/hyperlink7"
+        android:textColor="#000000"
+        android:textColorHighlight="#5FA19B"
+        android:textColorLink="#009688"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/link7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/hyperlink7"
+        android:textColor="#000000"
+        android:textColorHighlight="#5FA19B"
+        android:textColorLink="#009688"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <ImageButton
+            android:id="@+id/buttonDia"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/teal_700"
+            app:srcCompat="@drawable/sun" />
+
+        <ImageButton
+            android:id="@+id/buttonEmotions"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/teal_700"
+            app:srcCompat="@drawable/list_emotions" />
+
+        <ImageButton
+            android:id="@+id/buttonGraphic"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@color/teal_700"
+            app:srcCompat="@drawable/graphic" />
+
+    </LinearLayout>
+
+</LinearLayout>
